@@ -1,8 +1,8 @@
 ! Title: SebiTalent04/blocklists/media
 !
 !
-! Date: 17 September 2023 01:06:38 (UTC)
-! Number of unique domains: 55
+! Date: 27 February 2023 08:20:25 (UTC)
+! Number of unique domains: 67
 !
 ! Fetch the latest version of this file: https://raw.githubusercontent.com/SebiTalent04/blocklists/main/media.txt
 ! Project home page: https://github.com/SebiTalent04/blocklists/main/media.txt
@@ -35,6 +35,18 @@
 ||libreddit.bus-hit.me^
 ||libreddit.lunar.icu^
 ||snoo.habedieeh.re^
+||libreddit.projectsegfau.lt^
+||redlib.catsarch.com^
+||reddit.idevicehacked.com^
+||redlib.matthew.science^
+||redlib.freedit.eu^
+||redlib.perennialte.ch^
+||redlib.tux.pizza^
+||redlib.vimmer.dev^
+||rl.bloat.cat^
+||redlib.nohost.network^
+||redlib.ducks.party^
+||red.ngn.tf^
 
 ! ===============================================================
 
