@@ -34,6 +34,7 @@
 ||redlib.nohost.network^
 ||redlib.ducks.party^
 ||red.ngn.tf^
+||redlib.kylrth.com^
 
 ||pipedapi.kavin.rocks^
 ||pipedapi.tokhmi.xyz^
