@@ -1,0 +1,27 @@
+name: Duplicate and Modify File
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  duplicate_and_modify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Duplicate and Modify File
+        run: |
+          cp ublock.txt leechblock.txt
+          sed -i 's/||//g' leechblock.txt
+          sed -i 's/^/*/g' leechblock.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@users.noreply.github.com"
+          git add .
+          git commit -m "Duped and renamed"
+          git push
