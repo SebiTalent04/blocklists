@@ -1,16 +1,3 @@
-! Title: SebiTalent04/blocklists/media
-!
-!
-! Date: 27 February 2023 08:20:25 (UTC)
-! Number of unique domains: 67
-!
-! Fetch the latest version of this file: https://raw.githubusercontent.com/SebiTalent04/blocklists/main/media.txt
-! Project home page: https://github.com/SebiTalent04/blocklists/main/media.txt
-!
-! ===============================================================
-
-! ========================== libreddit ==========================
-
 ||safereddit.com^
 ||reddit.invak.id^
 ||reddit.simo.sh^
@@ -48,10 +35,6 @@
 ||redlib.ducks.party^
 ||red.ngn.tf^
 
-! ===============================================================
-
-! ============================ piped ============================
-
 ||pipedapi.kavin.rocks^
 ||pipedapi.tokhmi.xyz^
 ||pipedapi.moomoo.me^
@@ -83,7 +66,5 @@
 ||piapi.ggtyler.dev^
 ||api.watch.pluto.lat^
 ||piped-backend.seitan-ayoub.lol^
-
-! ===============================================================
 
 ||reddit.com^
