@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Pull repo
         run: git pull origin main
 
       - name: Duplicate and Modify File
