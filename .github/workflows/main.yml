@@ -19,6 +19,7 @@ jobs:
         run: |
           cp ublock.txt leechblock.txt
           sed -i 's/||//g' leechblock.txt
+          sed -i 's/\^/*/g' leechblock.txt
           
 
       - name: Commit and push changes
