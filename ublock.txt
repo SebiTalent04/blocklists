@@ -38,6 +38,7 @@
 ||redlib.nadeko.net^
 ||redlib.nirn.quest^
 ||redlib.nezumi.party^
+||redlib.kylrth.com^
 
 ||pipedapi.kavin.rocks^
 ||pipedapi.tokhmi.xyz^
