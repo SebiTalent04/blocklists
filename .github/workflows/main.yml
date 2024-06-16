@@ -18,7 +18,9 @@ jobs:
       - name: Duplicate and Modify File
         run: |
           while IFS= read -r line; do
-            echo "||${line}^" >> ublock.txt
+            if [ -n "$line" ]; then
+              echo "||${line}^" >> ublock.txt
+            fi
           done < text.txt
           
 
