@@ -40,6 +40,7 @@
 ||redlib.nirn.quest^
 ||redlib.nezumi.party^
 ||redlib.kylrth.com^
+
 ||pipedapi.kavin.rocks^
 ||pipedapi.tokhmi.xyz^
 ||pipedapi.moomoo.me^
@@ -71,6 +72,7 @@
 ||piapi.ggtyler.dev^
 ||api.watch.pluto.lat^
 ||piped-backend.seitan-ayoub.lol^
+
 ||yewtu.be^
 ||vid.puffyan.us^
 ||yt.artemislena.eu^
@@ -101,5 +103,6 @@
 ||invidious.incogniweb.net^
 ||invidious.darkness.services^
 ||invidious.yourdevice.ch^
+
 ||reddit.com^
 ||youtube.com^
