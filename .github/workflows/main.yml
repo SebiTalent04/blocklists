@@ -17,9 +17,9 @@ jobs:
 
       - name: Duplicate and Modify File
         run: |
-          cp ublock.txt leechblock.txt
-          sed -i 's/||/*/g' leechblock.txt
-          sed -i 's/\^//g' leechblock.txt
+          while IFS= read -r line; do
+            echo "||${line}^" >> ublock.txt
+          done < text.txt
           
 
       - name: Commit and push changes
