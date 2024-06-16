@@ -1,4 +1,4 @@
-name: Duplicate and Modify File
+name: Transform text.txt into ublock.txt and leechblock.txt
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Pull repo
         run: git pull origin main
 
-      - name: Duplicate and Modify File
+      - name: Transform text.txt into ublock.txt
         run: |
           > ublock.txt
           while IFS= read -r line; do
@@ -25,12 +25,22 @@ jobs:
               echo "" >> ublock.txt
             fi
           done < text.txt
-          
+
+      - name: Transform text.txt into leechblock.txt
+        run: |
+          > leechblock.txt
+          while IFS= read -r line; do
+            if [ -n "$line" ]; then
+              echo "${line}*" >> leechblock.txt
+            else
+              echo "" >> leechblock.txt
+            fi
+          done < text.txt
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@users.noreply.github.com"
           git add .
-          git commit -m "Duped and renamed"
+          git commit -m "Transformed them files"
           git push
